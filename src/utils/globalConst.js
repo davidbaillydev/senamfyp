@@ -1,0 +1,1 @@
+export const QR_VALUE_SEPARATOR = ":_:";

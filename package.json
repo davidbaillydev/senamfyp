@@ -1,0 +1,68 @@
+{
+  "name": "fyp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@lyracom/embedded-form-glue": "^1.0.0",
+    "@react-native-async-storage/async-storage": "^1.17.3",
+    "@react-native-clipboard/clipboard": "^1.8.5",
+    "@react-native-community/datetimepicker": "^5.1.0",
+    "@react-native-google-signin/google-signin": "^7.1.0",
+    "@react-navigation/bottom-tabs": "^6.2.0",
+    "@react-navigation/material-top-tabs": "^6.1.1",
+    "@react-navigation/native": "^6.0.8",
+    "@react-navigation/native-stack": "^6.5.0",
+    "abort-controller": "^3.0.0",
+    "async": "^3.2.3",
+    "axios": "^0.26.1",
+    "laravel-echo": "^1.11.3",
+    "moment": "^2.29.2",
+    "react": "17.0.2",
+    "react-native": "^0.67.4",
+    "react-native-bouncy-checkbox": "^2.1.10",
+    "react-native-camera-kit": "^12.0.0",
+    "react-native-document-picker": "^8.0.0",
+    "react-native-element-dropdown": "^1.8.2",
+    "react-native-fs": "^2.19.0",
+    "react-native-get-location": "^2.1.2",
+    "react-native-image-picker": "^4.7.3",
+    "react-native-numeric-input": "^1.9.1",
+    "react-native-pager-view": "^5.4.11",
+    "react-native-qrcode-svg": "^6.1.2",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.11.0",
+    "react-native-select-dropdown": "^1.8.0",
+    "react-native-svg": "^9.12.0",
+    "react-native-tab-view": "^3.1.1",
+    "react-native-vector-icons": "^9.0.0",
+    "react-native-webview": "^11.17.2",
+    "rn-fetch-blob": "^0.12.0",
+    "socket.io-client": "^4.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^27.5.1",
+    "eslint": "^7.32.0",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-native-social-buttons": "^1.2.0",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "assets/fonts"
+    ]
+  }
+}
